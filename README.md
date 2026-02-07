@@ -36,7 +36,7 @@ cd Msg-re
 
 2. Instalar dependências:
 ```bash
-pip install fastapi tortoise-orm uvicorn python-dotenv python-multipart
+pip install -r requirements.txt
 ```
 
 3. Rodar:
