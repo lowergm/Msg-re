@@ -1,6 +1,8 @@
 # Msg-re
 Chat feito usando FastAPI, PostgreSQL, TortoiseORM, Jinja2 com o objetivo de estudar mais sobre essas tecnologias
 
+<img src="exemplo.jpg">
+
 ---
 ## Estrutura do projeto
 ```
