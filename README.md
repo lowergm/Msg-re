@@ -15,12 +15,17 @@ Chat feito usando FastAPI, PostgreSQL, TortoiseORM, Jinja2 com o objetivo de est
 |---- style.css
 ```
 ---
-main.py - registrar rotas + banco de dados
-router.py - rotas do projeto
-models.py - tabelas do banco de dados
-requirements.txt - bibliotecas usadas no projeto
-templates/index.html - interface do projeto - mostrar as mensagens e formulário para mandar novas mensagens pro banco
-static/style.css - estilização do front-end
+**main.py** - registrar rotas + banco de dados
+
+**router.py** - rotas do projeto
+
+**models.py** - tabelas do banco de dados
+
+**requirements.txt** - bibliotecas usadas no projeto
+
+**templates/index.html** - interface do projeto - mostrar as mensagens e formulário para mandar novas mensagens pro banco
+
+**static/style.css** - estilização do front-end
 
 ---
 ## Instalação
@@ -44,6 +49,9 @@ Abra o site em `http://localhost:8000`
 ---
 ## Estrutura do banco
 *Cada mensagem tem*:
+
 `id`: Identificador único de cada mensagem
+
 `mensagem`: Mensagem enviada pelo usuário
+
 `criado_em`: Horário e dia que uma mensagem foi enviada
