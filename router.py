@@ -16,7 +16,7 @@ async def home(request: Request):
 @router.delete("/notes/{mensagem_id}")
 async def listar(mensagem_id: int):
     deleted_count = await Mensagem.filter(id=mensagem_id).delete()
-     return {"deleted": deleted_count}
+    return {"deleted": deleted_count}
 
 @router.get("/get-notes")
 async def get_notes():
