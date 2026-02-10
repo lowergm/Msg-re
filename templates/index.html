@@ -23,7 +23,7 @@
 	</div>
 	<footer>
 		<form method="post" action="{{ request.url_for('add') }}">
-			<input name="texto" placeholder="Mensagem..." />
+			<input name="texto" placeholder="Mensagem..." required/>
 			<button type="submit">></button>
 		</form>
 	</footer>
