@@ -13,10 +13,10 @@ async def home(request: Request):
 	mensagens = await Mensagem.all()
 	return templates.TemplateResponse("index.html", {"request": request, "mensagens": mensagens})
 
-@router.delete("/notes/{mensagem_id}")
-async def listar(mensagem_id: int):
-    deleted_count = await Mensagem.filter(id=mensagem_id).delete()
-    return {"deleted": deleted_count}
+#@router.delete("/notes/{mensagem_id}")
+#async def listar(mensagem_id: int):
+#    deleted_count = await Mensagem.filter(id=mensagem_id).delete()
+#    return {"deleted": deleted_count}
 
 @router.get("/get-notes")
 async def get_notes():
